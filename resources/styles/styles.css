@@ -99,13 +99,13 @@ main
     resize: none;
     font-weight: bold;
     margin-bottom: 10px;
-    background-image: url('../images/sherlock.png');
+    background-image: url('../images/detective.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: indigo;
     font-size: 24px;
 }
 
