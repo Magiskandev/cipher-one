@@ -49,7 +49,11 @@ document.getElementById("copyButton").addEventListener("click", function() {
   window.getSelection().removeAllRanges();
   window.getSelection().addRange(range);
 
+  
   document.execCommand("copy");
+  document.getElementById("input").innerText = "";
+  //document.getElementById("output").innerText = "";
   document.getElementById("popup").innerText = "Text copied!";
   document.getElementById("popup").style.display = "block";
+  //document.getElementById("output").style.backgroundImage = url("../images/sherlock.png");
 });
