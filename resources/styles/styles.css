@@ -1,3 +1,8 @@
+*
+{
+    outline: 1px solid red;
+}
+
 body
 {    
     background: linear-gradient(to bottom right, #00bfff, #00ff80);
@@ -90,6 +95,9 @@ main
 {    
     margin-top: 20px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .output
@@ -100,7 +108,7 @@ main
     font-weight: bold;
     margin-bottom: 10px;
     background-image: url('../images/detective.svg');
-    background-size: contain;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
